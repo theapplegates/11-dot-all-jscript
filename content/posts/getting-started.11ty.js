@@ -28,8 +28,6 @@ exports.render = data =>
 
 <html>
 <head>
-const cl = cloudinary.Cloudinary.new({ cloud_name: 'paulportfolio' })
-cl.responsive()
 <body>
 <img
 data-src="https://res.cloudinary.com/paulportfolio/image/upload/w_auto,c_scale,q_auto,f_auto,dpr_auto/v1591390043/wordpress/pack11ty-screenshot.png"
