@@ -25,5 +25,7 @@ module.exports = function (data) {
       </main>
       ${this.siteFooter(data)}
     </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cloudinary-core/2.3.0/cloudinary-core-shrinkwrap.min.js">
+</script>
   </html>`
 }
