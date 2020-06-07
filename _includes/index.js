@@ -8,6 +8,7 @@ var filters = require('./filters/index')
 var shortcodes = require('./shortcodes/index')
 var transforms = require('./transforms/index')
 
+
 /**
  * A loader module for includes
  * @module _includes/index
@@ -15,6 +16,8 @@ var transforms = require('./transforms/index')
  * @see {@link https://www.11ty.dev/docs/config/ Configuring 11ty}
  */
 module.exports = eleventyConfig => {
+
+
 
   // Function calls to modules to include
   filters(eleventyConfig)

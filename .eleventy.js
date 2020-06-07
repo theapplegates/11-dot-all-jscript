@@ -5,8 +5,6 @@
  */
 
 // Require native Node.js modules
-const cl = cloudinary.Cloudinary.new({ cloud_name: 'paulportfolio' })
-cl.responsive()
 
 var fs = require('fs')
 
