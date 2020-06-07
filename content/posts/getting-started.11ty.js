@@ -26,6 +26,22 @@ exports.data ={
 exports.render = data =>
 `_This is the first post in a five-part series on “Getting Started with 🍦.11ty.js”_
 
+<html>
+<head>
+const cl = cloudinary.Cloudinary.new({ cloud_name: 'paulportfolio' })
+cl.responsive()
+<body>
+<img
+data-src="https://res.cloudinary.com/paulportfolio/image/upload/w_auto,c_scale,q_auto,f_auto,dpr_auto/v1591390043/wordpress/pack11ty-screenshot.png"
+alt=""
+class="cld-responsive" />
+</body>
+</head>
+</html>
+
+
+
+
 ### What is a _Local Development Environment_ Anyway?
 
 Have you ever published a major typo or botched an @ mention on a social media platform or blog? I know I have ✋.
