@@ -10,16 +10,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/reubenlillie/eleventy-dot-js-blog.git",
-    "https": "https://gitlab.com/reubenlillie/eleventy-dot-js-blog.git",
-    "editUrl": "https://gitlab.com/reubenlillie/eleventy-dot-js-blog/-/edit/master"
+    "url": "git://github.com/theapplegates/11-dot-all-jscript.git",
+    "https": "https://github.com/theapplegates/11-dot-all-jscript.git",
+    "editUrl": "https://github.com/theapplegates/11-dot-all-jscript/edit/master"
   },
   "author": "Reuben L. Lillie",
   "license": "MIT",
   "bugs": {
-    "url": "https://gitlab.com/reubenlillie/eleventy-dot-js-blog/issues"
+    "url": "https://github.com/theapplegates/11-dot-all-jscript/issues"
   },
-  "homepage": "https://gitlab.com/reubenlillie/eleventy-dot-js-blog#readme",
+  "homepage": "https://github.com/theapplegates/11-dot-all-jscript#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.11.0",
     "clean-css": "^4.2.3",

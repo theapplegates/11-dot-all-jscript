@@ -16,7 +16,7 @@
  */
 module.exports = {
   // The root for the site domain (without a trailing slash)
-  baseUrl: 'https://example.com',
+  baseUrl: 'https://gallant-lumiere-589799.netlify.app',
   // Uses this locale when one is not set in content/content.11tydata.js
   defaultLocale: 'en-US',
   // Localized strings and other options for English
