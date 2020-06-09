@@ -8,6 +8,8 @@
  * Acts as front matter in JavaScript templates
  * @see {@link https://www.11ty.dev/docs/languages/javascript/#optional-data-method Optional `data` in JavaScript templates in 11ty}
  */
+const cl = cloudinary.Cloudinary.new({ cloud_name: 'paulportfolio' })
+cl.responsive()
 exports.data ={
   title: 'Getting Started with 🍦.11ty.js, Part V: Choosing a Text Editor',
   date: '2020-04-17',
@@ -30,8 +32,6 @@ exports.render = data =>
 <head>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/cloudinary-core/2.3.0/cloudinary-core-shrinkwrap.min.js">
 </script>
-const cl = cloudinary.Cloudinary.new({ cloud_name: 'paulportfolio' })
-cl.responsive()
 <body>
 <img
 data-src="https://res.cloudinary.com/paulportfolio/image/upload/w_auto,c_scale,q_auto,f_auto,dpr_auto/v1591390043/wordpress/pack11ty-screenshot.png"
