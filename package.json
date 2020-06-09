@@ -25,5 +25,8 @@
     "clean-css": "^4.2.3",
     "html-minifier": "^4.0.0",
     "terser": "^4.6.13"
+  },
+  "dependencies": {
+    "eleventy-plugin-respimg": "^0.1.2"
   }
 }

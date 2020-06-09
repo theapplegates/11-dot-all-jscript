@@ -8,8 +8,7 @@
  * Acts as front matter in JavaScript templates
  * @see {@link https://www.11ty.dev/docs/languages/javascript/#optional-data-method Optional `data` in JavaScript templates in 11ty}
  */
-const cl = cloudinary.Cloudinary.new({ cloud_name: 'paulportfolio' })
-cl.responsive()
+
 exports.data ={
   title: 'Getting Started with 🍦.11ty.js, Part V: Choosing a Text Editor',
   date: '2020-04-17',
@@ -28,23 +27,22 @@ exports.data ={
 exports.render = data =>
 `_This is the final post in a five-part series on [“Getting Started with 🍦.11ty.js”](/blog/getting-started/)_
 
+
 <html>
 <head>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/cloudinary-core/2.3.0/cloudinary-core-shrinkwrap.min.js">
-</script>
 <body>
-<img
-data-src="https://res.cloudinary.com/paulportfolio/image/upload/w_auto,c_scale,q_auto,f_auto,dpr_auto/v1591390043/wordpress/pack11ty-screenshot.png"
-alt=""
-class="cld-responsive" />
+{% respimg
+	"https://res.cloudinary.com/paulportfolio/image/upload/v1589138176/11ty/IMG_0558.jpg",
+	"Second X-Ray",
+	"(min-width: 48em) 48em, 100vw"
+%}
 </body>
 </head>
 </html>
 
 
 
-
-> **👣 Background** 
+> **👣 Background**
 >
 > By this point, you should have already:
 > 1. [Installed and configured Git](/blog/intro-to-git/) on your computer
@@ -63,7 +61,7 @@ Here’s a list of the text editors that come preinstalled with some of the most
 * On 🍏 macOS, the default text editor is called [Text Edit](https://support.apple.com/guide/textedit/welcome/mac).
 * On 🏢 Windows, the default text editor is called [Notepad](https://www.microsoft.com/en-us/p/windows-notepad/9msmlrh6lzf3?activetab=pivot:overviewtab#).
 
-While you could use the default editor for your operating system to edit files occasionally, other editors are specifically designed to help you manage larger projects. 
+While you could use the default editor for your operating system to edit files occasionally, other editors are specifically designed to help you manage larger projects.
 
 I use [Vim](https://www.vim.org/). It’s free, open source, not-for-profit (all proceeds assist children in Uganda through <abbr title="ICCF: International Child Care Fund">ICCF</abbr> Holand), and you can access Vim directly from the [command line](/blog/terminal/).
 
