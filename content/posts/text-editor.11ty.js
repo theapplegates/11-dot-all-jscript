@@ -27,18 +27,10 @@ exports.data ={
 exports.render = data =>
 `_This is the final post in a five-part series on [“Getting Started with 🍦.11ty.js”](/blog/getting-started/)_
 
-
-<html>
-<head>
-<body>
-{% respimg
-	"https://res.cloudinary.com/paulportfolio/image/upload/v1589138176/11ty/IMG_0558.jpg",
-	"Second X-Ray",
-	"(min-width: 48em) 48em, 100vw"
-%}
-</body>
-</head>
-</html>
+<img
+   data-src="https://res.cloudinary.com/paulportfolio/image/upload/w_auto,c_scale,q_auto,f_auto,dpr_auto /v1591390043/wordpress/pack11ty-screenshot.png""
+alt=""
+class="cld-responsive" />
 
 
 
