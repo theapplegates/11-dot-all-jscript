@@ -28,11 +28,15 @@ exports.render = data =>
 
 <html>
 <head>
-<meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cloudinary-core/2.3.0/cloudinary-core-shrinkwrap.min.js">
+</script>
+const cl = cloudinary.Cloudinary.new({ cloud_name: 'paulportfolio' })
+cl.responsive()
 <body>
-<img 
-   src="https://res.cloudinary.com/paulportfolio/image/upload/f_auto,q_auto:good,c_fill,g_auto,ar_16:9/w_auto:breakpoints/v1590962984/11ty/6D712779-E986-4360-8510-88EDD09E5ADC.jpg"
-   sizes="100vw"  /> 
+<img
+data-src="https://res.cloudinary.com/paulportfolio/image/upload/w_auto,c_scale,q_auto,f_auto,dpr_auto/v1591390043/wordpress/pack11ty-screenshot.png"
+alt=""
+class="cld-responsive" />
 </body>
 </head>
 </html>
