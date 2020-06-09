@@ -26,8 +26,7 @@ exports.render = function (data) {
       <time>${this.pageDate(data)}</time>
     </header>
     ${data.content}
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/cloudinary-core/2.3.0/cloudinary-core-shrinkwrap.min.js">
-</script>
+    <script src="bower_components/cloudinary-core/cloudinary-core-shrinkwrap.js" type="text/javascript"></script>
 <script type="text/javascript">
     var cl = cloudinary.Cloudinary.new({cloud_name: "paulportfolio"});
     cl.responsive();
