@@ -28,13 +28,16 @@ exports.render = data =>
 `_This is the final post in a five-part series on [“Getting Started with 🍦.11ty.js”](/blog/getting-started/)_
 
 
-
+<html>
+<head>
+<body>
 <img
    data-src="https://res.cloudinary.com/paulportfolio/image/upload/w_auto,c_scale,q_auto,f_auto,dpr_auto/v1590962984/11ty/6D712779-E986-4360-8510-88EDD09E5ADC.jpg"
 alt=""
 class="cld-responsive" />
-
-
+</body>
+</head>
+</html>
 
 > **👣 Background**
 >
