@@ -5,7 +5,6 @@
  */
 
 // Require native Node.js modules
-
 var fs = require('fs')
 
 /**
@@ -17,7 +16,7 @@ var fs = require('fs')
  *
  * Storing these modules in separate directories,
  * rather than all in this file,
- * helps keep the codebase organized—at least that’s the idea.
+ * helps keep the codebase organized--at least that’s the idea.
  */
 var includes = require('./_includes/index')
 
@@ -28,7 +27,7 @@ var includes = require('./_includes/index')
  * @return {Object} 11ty’s Config object optional
  * @see {@link https://www.11ty.dev/docs/config/ Configuring 11ty}
  */
-
+module.exports = function (eleventyConfig) {
 
   // Pass 11ty’s Conig object to the includes module (~/_includes)
   includes(eleventyConfig)
@@ -87,4 +86,4 @@ var includes = require('./_includes/index')
     pathPrefix: '/',
   }
   */
-
+}
