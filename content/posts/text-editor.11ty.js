@@ -30,6 +30,7 @@ exports.render = data =>
 
 <html>
 <head>
+<meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width">
 <body>
 <img 
    src="https://res.cloudinary.com/paulportfolio/image/upload/f_auto,q_auto:good,c_fill,g_auto,ar_16:9/w_auto:breakpoints/v1590962984/11ty/6D712779-E986-4360-8510-88EDD09E5ADC.jpg"
