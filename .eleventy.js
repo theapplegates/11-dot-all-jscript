@@ -28,13 +28,7 @@ var includes = require('./_includes/index')
  * @return {Object} 11ty’s Config object optional
  * @see {@link https://www.11ty.dev/docs/config/ Configuring 11ty}
  */
-const pluginRespimg = require( "eleventy-plugin-respimg" );
-module.exports = function (eleventyConfig) {
-  eleventyConfig.cloudinaryCloudName = 'paulportfolio';
-  	eleventyConfig.srcsetWidths = [ 175, 320, 640, 960, 1280, 1600, 1920, 2240, 2560 ];
-  	eleventyConfig.fallbackWidth = 640;
 
-eleventyConfig.addPlugin( pluginRespimg );
 
   // Pass 11ty’s Conig object to the includes module (~/_includes)
   includes(eleventyConfig)
