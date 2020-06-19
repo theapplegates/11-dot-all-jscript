@@ -16,7 +16,7 @@
  */
 module.exports = {
   // The root for the site domain (without a trailing slash)
-  baseUrl: 'https://master.d256nv3kbxn7ed.amplifyapp.com',
+  baseUrl: 'https://11ty-dot-all-js-scripts20217.netlify.app',
   // Uses this locale when one is not set in content/content.11tydata.js
   defaultLocale: 'en-US',
   // Localized strings and other options for English
